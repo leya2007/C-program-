@@ -1,0 +1,35 @@
+include <stdio.h>
+
+#include <math.h>
+
+int main() 
+{
+
+    float f;
+
+    int sqr, base, power;
+
+    // Reading inputs
+
+    scanf("%f", &f);
+
+    scanf("%d %d %d", &sqr, &base, &power);
+
+    // Calculating and printing outputs
+
+    printf("%d\n",(int)floor(f));
+
+    printf("%d\n",(int)ceil(f));
+
+    printf("%d\n",(int)sqrt(sqr));
+
+    printf("%d\n",(int)pow(base,power));
+
+    return 0;
+
+}
+
+
+
+
+
