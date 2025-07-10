@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int number, digit1, digit2, sum;
+    // Input
+    scanf("%d", &number);
+    // Separate digits
+    digit1 = number / 10;    // Tens place
+    digit2 = number % 10;    // Units place
+    // Calculate sum
+    sum = digit1 + digit2;
+    // Output
+    printf("Bird said:%d\n", number);
+    printf("Alice must go in path-%d\n", sum);
+    return 0;
+}
